@@ -6,7 +6,7 @@ Author: mjb527 Modified by: aunea
 
 ## Description
 
-Polish can be difficulty to learn, so I created this [Magic Mirror](https://github.com/MichMich/MagicMirror) module that scrapes a Hindi Word of the Day from [https://www.hindipod101.com/hindi-phrases/](https://www.hindipod101.com/hindi-phrases/). It formats the Hindi word and sentences, and their English translations, creating a result like the one above, and displays it in the document.
+Hindi can be difficulty to learn, so I created this [Magic Mirror](https://github.com/MichMich/MagicMirror) module that scrapes a Hindi Word of the Day from [https://www.hindipod101.com/hindi-phrases/](https://www.hindipod101.com/hindi-phrases/). It formats the Hindi word and sentences, and their English translations, creating a result like the one above, and displays it in the document.
 
 Includes:
 1. The word of the day
@@ -18,3 +18,13 @@ Includes:
 
 * JavaScript
 * Node.js - including Node Helper, Cheerio, and Request-Promise-Native
+
+
+## Install
+
+To install this module, clone this repository into the MagicMirror/modules folder.
+
+```
+cd MagicMirror/modules
+git clone https://github.com/aunrea/MMM-Hindi_WOTD.git
+```
