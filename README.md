@@ -1,12 +1,12 @@
-# PL-WordOfTheDay
+# Hindi-WordOfTheDay
 
-Author: mjb527
+Author: mjb527 Modified by: aunea
 
 ![Example of Result](/img/Word-of-the-Day-Example.png)
 
 ## Description
 
-Polish can be difficulty to learn, so I created this [Magic Mirror](https://github.com/MichMich/MagicMirror) module that scrapes a Polish Word of the Day from [https://www.polishpod101.com/polish-phrases/](https://www.polishpod101.com/polish-phrases/). It formats the Polish word and sentences, and their English translations, creating a result like the one above, and displays it in the document.
+Polish can be difficulty to learn, so I created this [Magic Mirror](https://github.com/MichMich/MagicMirror) module that scrapes a Hindi Word of the Day from [https://www.hindipod101.com/hindi-phrases/](https://www.hindipod101.com/hindi-phrases/). It formats the Hindi word and sentences, and their English translations, creating a result like the one above, and displays it in the document.
 
 Includes:
 1. The word of the day
@@ -18,5 +18,3 @@ Includes:
 
 * JavaScript
 * Node.js - including Node Helper, Cheerio, and Request-Promise-Native
-
-![Polish Eagle](/img/polish-eagle.png)
