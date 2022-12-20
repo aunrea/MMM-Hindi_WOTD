@@ -28,16 +28,15 @@ To install this module, clone this repository into the MagicMirror/modules folde
 cd MagicMirror/modules
 git clone https://github.com/aunrea/MMM-Hindi_WOTD.git
 cd MMM-Hindi_WOTD
+npm install
 npm install request-promise-native
 ```
 To use this module, add the following to the modules array in the config/config.js file:
 
 ```
-modules: [
     {
         module: 'MMM-Hindi_WOTD',
         position: 'bottom_right',
         // There are no config options
     }
-]
 ```
