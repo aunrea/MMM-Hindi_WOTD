@@ -31,7 +31,7 @@ module.exports = NodeHelper.create({
 
       // config the packages
       const options = {
-        uri: "https://www.polishpod101.com/polish-phrases/",
+        uri: "https://www.hindipod101.com/hindi-phrases/",
         transform: function (body) {
           return cheerio.load(body);
         },
@@ -74,7 +74,7 @@ processData: async function(data) {
       const wotd_data = {}
 
       const $ = cheerio.load(data._root.children[1].children);
-      // rows of Polish and English translation
+      // rows of Hindi and English translation
       const pRows = $(".r101-wotd-widget__word");
       const eRows = $(".r101-wotd-widget__english");
 
@@ -91,7 +91,7 @@ processData: async function(data) {
         let english = _this.formatText(eRows[i].children[0].data)
 
         // push each example to the array
-        examples.push({"polish" : polish,
+        examples.push({"hindi" : hindi,
         "english" : english});
       }
 
