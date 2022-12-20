@@ -1,7 +1,7 @@
 {
-  "name": "pl-wotd",
+  "name": "MMM-Hindi_WOTD",
   "version": "1.0.0",
-  "description": "Find the Polish word-of-the-day & display it",
+  "description": "Find the Hindi word-of-the-day & display it",
   "main": "webscrape.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
@@ -18,12 +18,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjb527/PL-WordOfTheDay.git"
+    "url": "git+https://github.com/aunrea/MMM-Hindi_WOTD.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mjb527/PL-WordOfTheDay/issues"
+    "url": "https://github.com/aunrea/MMM-Hindi_WOTD/issues"
   },
-  "homepage": "https://github.com/mjb527/PL-WordOfTheDay#readme"
+  "homepage": "https://github.com/aunrea/MMM-Hindi_WOTD#readme"
 }
