@@ -1,12 +1,12 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: MMM-PL_WOTD
+ * Module: MMM-Hindi_WOTD
  *
- * By mjb527
+ * By mjb527 modified by aunrea
  */
 
-Module.register("MMM-PL_WOTD", {
+Module.register("MMM-Hindi_WOTD", {
 	defaults: {
 		updateInterval: 24 * 60 * 60 * 1000, // update once per day
 		retryDelay: 5 * 1000, // number of seconds in milliseconds
@@ -51,7 +51,7 @@ Module.register("MMM-PL_WOTD", {
 
 	getStyles: function () {
 		return [
-			this.file("MMM-PL_WOTD.css"),
+			this.file("MMM-Hindi_WOTD.css"),
 		];
 	},
 
